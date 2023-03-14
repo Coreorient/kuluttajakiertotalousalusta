@@ -1,0 +1,7 @@
+{
+    "APP_ENV": "local",
+    "GOOGLE_TAG_MANAGER_KEY": "",
+    "APP_URL": "http://localhost:3000",
+    "OSM_TILES_SERVER": "",
+    "OSM_TILES_BASE_URL": ""
+}
