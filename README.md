@@ -28,6 +28,10 @@ In the project directory, run:
 ```
 npm install
 ```
+
+> ***Warning: if your version of npm is different from the one used in the project, follow the step below before running***
+find the file "package.json" in the project directory and replace "NODE_OPTIONS=--inspect" by "NODE_OPTIONS=--openssl-legacy provider" to allow different version to work together.
+
 ### To Run on Host 
 
 > ***Note: Running more than one builds simultaneously will fail as next.js removes all previous builds on start up.***
